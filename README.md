@@ -46,7 +46,7 @@ To grant Bedrock access to your identity, you can:
 
 - Open the [AWS IAM Console](https://us-east-1.console.aws.amazon.com/iam/home?#)
 - Find your [Role](https://us-east-1.console.aws.amazon.com/iamv2/home?#/roles) (if using SageMaker or otherwise assuming an IAM Role), or else [User](https://us-east-1.console.aws.amazon.com/iamv2/home?#/users)
-> ⚠️ **Note:** If using default SageMaker setup, your role will look like 'AmazonSageMaker-ExecutionRole-YYYYMMDDTHHMMSS'
+> ℹ️ **Note:** If using default SageMaker setup, your role will look like 'AmazonSageMaker-ExecutionRole-YYYYMMDDTHHMMSS'
 - Select *Add Permissions > Create Inline Policy* to attach new inline permissions, open the *JSON* editor and paste in the below example policy:
 
 ```
@@ -69,6 +69,7 @@ For more information on the fine-grained action and resource permissions in Bedr
 
 
 ### Clone and use the notebooks
+To  get into notebook environment, you have to start your Studio Classic application (it can take few minutes) and than open it.
 
 > ℹ️ **Note:** In SageMaker Studio, you can open a "System Terminal" to run these commands by clicking *File > New > Terminal*
 
