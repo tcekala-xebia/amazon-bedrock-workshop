@@ -138,3 +138,9 @@ This repository contains notebook examples for the Bedrock Architecture Patterns
 
    - **Further Reading:**
      - Familiarize yourself with the basic concepts of guardrails and their implementation in NeMo by exploring the [NeMo-Guardrails documentation](https://github.com/NVIDIA/NeMo). This section helps in understanding how guardrails contribute to the safety, reliability, and ethical handling of LLMs.
+
+## After workshop
+After finishing workshop, please remove your SageMaker domain. To do it, you have to go into SageMaker Domains, choose your domain and then:
+- go into User Details, choose your User and delete your app (it can take a while)
+- click 'Edit' (still in your user details) and then 'Delete user'
+- return to Domains, check your domain and click 'Edit', and then 'Delete domain'
