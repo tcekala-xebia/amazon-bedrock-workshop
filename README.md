@@ -35,7 +35,8 @@ This workshop is presented as a series of **Python notebooks**, which you can ru
 - For a fully-managed but more basic experience, you could instead [create a SageMaker Notebook Instance](https://docs.aws.amazon.com/sagemaker/latest/dg/howitworks-create-ws.html).
 - If you prefer to use your existing (local or other) notebook environment, make sure it has [credentials for calling AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html).
 
-You can run this workshop in the **us-east-1 (N. Virginia)** region (models can not work in other regions).  
+> ⚠️ You should run this workshop in the **us-east-1 (N. Virginia)** region (models might not work in other regions).  
+
 If you have any problems with setting up SageMaker connected with `Failed to create domain: can't create SageMaker execution role.` message, please contact your mentor - you don't have sufficient rights.
 
 ### Enable AWS IAM permissions for Bedrock
